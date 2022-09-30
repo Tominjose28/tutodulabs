@@ -1,0 +1,362 @@
+body{
+padding:0;
+margin:0;
+ box-sizing:border-box;
+ font-family: 'Times New Roman', Times, serif;
+ height:100vh;
+ width:100%;
+ 
+}
+
+.nav{
+
+    margin-top: 20px;
+    
+    padding:20px ;
+    height: 40px; 
+    font-size: 34px;
+   
+    color:#212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:sans-serif;
+    
+    word-spacing: 2px;
+  
+}
+.nav span{
+  font-family:Times New Roman ;  
+}
+
+a{
+    color: white;
+}
+
+
+.container{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 30px;
+
+    padding: 20px;
+    
+    border-radius: 25px;
+}
+
+
+
+
+.title p {
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 490px;
+    text-align:justify;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    
+    font-weight: 400;
+    line-height: 1.5;
+    font-size:16px; 
+}
+
+h4{
+    color: #007bff ;
+}
+span{
+    color:#f36b3b;
+}
+
+.title-images img{
+width: 470px;
+height: 200px;
+border-radius:10px;
+margin-left: 80px;
+
+}
+
+
+
+
+/*search-login */
+
+.login-search{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100%;   
+}
+
+.login-card,.search-card{
+margin-top: 50px;
+padding: 70px;
+border-radius: 25px;
+background-color: #f5f5f5;
+margin-left: 50px;
+font-family:sans-serif;
+
+}
+.login-search h2{
+    color:#07376E;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.login-search h3{
+    color:black;
+}
+.login-search h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.login-search select{
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+    border-radius: 25px;
+    color: black;
+    font-weight: 700;
+    border: none;
+    font-family: sans-serif;
+}
+.login-search button{
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: white;
+    background-color: #007bff;
+}
+
+/*search-login */
+
+.project-lists-container h1{
+    padding:20px ;
+    
+    margin-top: 100px;
+     text-align: center;
+     color:#f36b3b;
+font-family: sans-serif;
+}
+.weather-station{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+   
+    
+}
+.weather-station-color{
+    padding:15px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    
+}
+.weather-station-title{
+    
+    width: 500px;
+}
+.weather-station-title h2{
+    color: #007bff;
+    font-family: sans-serif;
+    padding: 15px;
+    background-color: white;
+    border-radius: 25px;
+}
+.weather-station-title h2 span{
+    color: #f36b3b;
+}
+.weather-station-title  p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+   text-align: justify;
+
+}
+.weather-station-images img{
+    border-radius: 10px;
+    width: 440px;
+    height: 300px;
+}
+
+
+
+.banner-sub{
+    margin-top: 70px;
+    
+   
+   
+}
+.login-project-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.project-organization-title{
+   border-radius: 10px;
+  padding:100px ;
+    height: 200px;
+  
+   
+}
+.project-organization-title h2{
+    color:#07376E;
+    font-family: sans-serif;
+}
+.project-organization-title h3{
+    color: #f36b3b;
+}
+
+.prjoect-tilte select,.organization-tilte select{
+    border: none;
+    border-radius: 50px;
+    padding: 8px;
+    color: #07376E;
+    font-weight: 600;
+    width: 500px;
+    height: 40px;
+}
+
+
+.project-organization-title button{
+padding: 10px;
+border-radius: 50px;
+border: none;
+padding-left: 19px;
+padding-right: 19px;
+font-weight: 600;
+margin-left: -290px;
+margin-top: 10px;
+
+
+
+}
+
+.project-organization-title button a{
+    color: #07376E;
+   
+
+
+}
+.project-organization-title button a:hover{
+    color:white ;
+     background-color: #007bff;
+ }
+ .project-organization-title button:hover{
+    color:white ;
+    background-color: #007bff;
+    padding-left: 25px;
+    padding-right: 25px;
+ }
+.project-organization-titlee{
+    margin-top: 50px;
+     width: 100%;
+     height: 60px;
+     background-color:#f36b3b;
+     
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .project-organization-titlee h3{
+     color: white;
+ }
+ .prjoect-tiltee select,.organization-tiltee select{
+     border: none;
+     border-radius: 50px;
+     padding: 5px;
+     color: #07376E;
+     font-weight: 600;
+ }
+ 
+ 
+ .project-organization-titlee button{
+ padding: 5px;
+ border-radius: 50px;
+ border: none;
+ padding-left: 19px;
+ padding-right: 19px;
+ font-weight: 600;
+ 
+ }
+ .project-organization-titlee button a{
+     color: #07376E;
+ 
+ }
+
+.weather-main{
+    
+    margin-top: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card-temperature {
+   
+    border-width: thick;
+    width: 200px;
+    height: 200px;
+    background-color: #07376E;
+    color:white;
+    margin: 10px;  
+    text-align: center;
+    border-radius: 10px;
+}
+.card-temperature h4{
+    color: white;
+}
+.card-temperature:hover{
+    background-color:  #007bff;
+    border-color: #007bff;
+
+
+    text-align: center;
+}
+.card-temperature img{
+    margin-top: -40px;
+  margin-left: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+
+.footer{
+    
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+    background-color: #07376E;
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.contact-details{
+    
+color: #f5f5f5;
+
+}
+
+.footer-image img {
+    border-radius: 15px;
+    width: 250px;
+    height: 100px;
+}
+<!--Contact-->
+
+
+.input{
+    border-radius: 10px;
+width: 300px;
+    padding: 30px;
+}
